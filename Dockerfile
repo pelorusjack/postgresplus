@@ -22,4 +22,5 @@ VOLUME $SRC_PATH
 
 COPY postgres.sh /docker-entrypoint-initdb.d/
 COPY createrepluser.sql /docker-entrypoint-initdb.d/
+COPY mongooseim.sql /docker-entrypoint-initdb.d/
 
