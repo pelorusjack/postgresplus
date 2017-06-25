@@ -238,3 +238,6 @@ CREATE TABLE auth_token(
     owner   TEXT    NOT NULL PRIMARY KEY,
     seq_no  BIGINT  NOT NULL
 );
+
+/c mongooseim
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO usermongooseim;
